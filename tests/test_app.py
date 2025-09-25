@@ -6,4 +6,4 @@ def test_home():
     client = app.app.test_client()
     res = client.get('/')
     assert res.status_code == 200
-    assert b"Hello DevOps CI/CD Demo!" in res.data
+    assert b"Hello DevOps CI/CD Demo V2!" in res.data
