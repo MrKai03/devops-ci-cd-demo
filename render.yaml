@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: ci-cd-demo
+    env: docker
+    plan: free
+    autoDeploy: true
+    branch: main
+    healthCheckPath: /
